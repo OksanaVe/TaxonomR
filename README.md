@@ -1,10 +1,11 @@
 # TaxonomR: taxonomic decision support tool
 ## Overview  
 TaxonomR is an interactive application designed to facilitate taxonomic ranking decisions and make them more transparent, explicit, and accessible to interpretation and comparison across alternative classifications. The program is developed using the Shiny package for R programming language and is available as an online application (https://oksanav.shinyapps.io/TaxonomR/). Source R script for the Shiny app is available in the [shiny_app files](https://github.com/OksanaVe/TaxonomR/tree/main/shiny_app%20files) directory.  
+A beta version of a new feature for evaluating alternative taxonomic classifications is available in the "Classifications" tab. Performance of this feature tab is under development and if you would like to test it please contact one of the TaxonomR authors for details. 
 ![Browser view](TaxonomR.png)
   
 ## Example usage  
-TaxonomR has a very simple and accessible interface for users of all levels. The general workflow includes only two steps – uploading input files and specifying a prioritization scheme using interactive sliders to set preferred weights for different decision-making criteria. The second step is a dynamic procedure – TaxonomR reacts to the information provided by the user and outputs updated scores for each taxonomic group included in the analysis. The output is updated every time user changes any of the input weight values or data files.  
+TaxonomR has a very simple and accessible interface for users of all levels. The general workflow includes only two steps – uploading input files and specifying a prioritization scheme using interactive sliders to set preferred weights for different decision-making criteria. Detailed information about the input data formats and requirements is provided in the [instructions](Instructions_11May2023.pdf). The second step is a dynamic procedure – TaxonomR reacts to the information provided by the user and outputs updated scores for each taxonomic group included in the analysis. The output is updated every time user changes any of the input weight values or data files.  
    
 **a.**	Launch online application available at (https://oksanav.shinyapps.io/TaxonomR/)  
 **b.**	Get familiar with the user interface:  
