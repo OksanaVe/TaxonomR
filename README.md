@@ -14,7 +14,7 @@ TaxonomR has a very simple and accessible interface for users of all levels. The
    
 **c.**	Upload tree file(s) by clicking the “Browse” button (Fig. 3A) at the top of the user input panel and navigating to the tree file saved on your computer. If you need to upload another tree file with additional information, click the “Add Tree” button and repeat previous steps to upload additional file (Fig. 3B). If you have a single tree file which contains all necessary information (branch lengths, support values, and divergence dates), you do not need to use the “Add Tree” option.  
    
-![Upload tree](https://github.com/OksanaVe/TaxonomR/blob/main/img/Fig.2.jpg)  
+![Upload tree](img/Fig.2.jpg)  
 **Figure 2.** Upload a tree with branch length and node support values by clicking the “Browse” button (A). If a second tree file needs to be uploaded, click the “Add Tree” button (B) and upload another file in the new tree upload line.  
    
 **d.**	Next, upload data file by clicking the “Browse” button in the data file upload field and navigating to your csv-formatted file. Once both tree and data files are uploaded, TaxonomR will update the output view field to show the tree and a list of taxonomic groups provided in the data file (Fig. 4). You can choose a taxonomic group to highlight and show as a zoom-in section by selecting that group from the “Select Group” drop-down menu. In the zoomed view, taxa that do not belong to the group are collapsed and shown as number of taxa in square brackets.  
